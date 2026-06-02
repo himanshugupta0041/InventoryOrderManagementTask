@@ -588,25 +588,12 @@ CORS_ALLOW_ORIGINS=https://your-frontend-domain.vercel.app,https://your-netlify-
 
 Do not use `*` for production unless the assessment explicitly allows it.
 
-### Docker Hub Backend Image
 
-Build and push the backend image:
-
-```bash
-docker build -t aditya0670/inventory-order-backend:latest ./backend
-docker push aditya0670/inventory-order-backend:latest
-```
-
-Optional versioned release:
-
-```bash
-docker tag aditya0670/inventory-order-backend:latest aditya0670/inventory-order-backend:v1.0.0
-docker push aditya0670/inventory-order-backend:v1.0.0
 ```
 
 Docker Hub backend image:
 
-[aditya0670/inventory-order-backend](https://hub.docker.com/repository/docker/aditya0670/inventory-order-backend/)
+[montu04/order_management_task/tags/backend/](https://hub.docker.com/repository/docker/montu04/order_management_task/tags/backend/)
 
 ### Frontend Deployment
 
@@ -634,10 +621,10 @@ VITE_API_BASE_URL=https://your-backend-domain.com/api/v1
 
 ## Demo Links
 
-- GitHub Repository: `https://github.com/aditya-0670/inventory-order-management-system`
-- Docker Hub Backend Image: `https://hub.docker.com/repository/docker/aditya0670/inventory-order-backend/`
-- Live Frontend URL: `https://inventory-order-management-frontend.vercel.app`
-- Live Backend API URL: `https://inventory-order-backend-ehpp.onrender.com`
+- GitHub Repository: `https://github.com/himanshugupta0041/InventoryOrderManagementTask`
+- Docker Hub Backend Image: `https://hub.docker.com/repository/docker/montu04/order_management_task/tags/backend/`
+- Live Frontend URL: `https://inventory-order-management-frontend.vercel.app/dashboard`
+- Live Backend API URL: `https://backend-task-we50.onrender.com`
 
 ## Screenshots
 
